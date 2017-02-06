@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "عفوا!"
+   },
+   "success_msg": {
+      "message": "النجاح!"
+   },
+   "btn_back": {
+      "message": "إلى الوراء"
+   },
+   "btn_enter_license_key": {
+      "message": "إدخال مفتاح الترخيص"
+   },
+   "textarea_placeholder": {
+      "message": "الرجاء إدخال رمز الرخصة هنا"
+   },
+   "btn_more_locations": {
+      "message": "مزيد من المواقع"
+   },
+   "btn_buy": {
+      "message": "انقر هنا <br/> لشراء ترخيص"
+   },
+   "btn_enter": {
+      "message": "لديك ترخيص كامل؟ <BR/> أدخل رمز"
+   },
+   "badger1": {
+      "message": "المواقع الأخيرة"
+   },
+   "badger2": {
+      "message": "جميع المواقع المتاحة"
+   },
+   "please_upgrade_msg": {
+      "message": "الرجاء الترقية إلى الوصول إلى هذا الموقع وكيل."
+   },
+   "please_select_another_msg": {
+      "message": "يرجى تحديد موقع وكيل آخر."
+   },
+   "invalid_key_msg": {
+      "message": "مفتاح غير صالح."
+   }
+}
+

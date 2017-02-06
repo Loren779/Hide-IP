@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oeps!"
+   },
+   "success_msg": {
+      "message": "Succes!"
+   },
+   "btn_back": {
+      "message": "Terug"
+   },
+   "btn_enter_license_key": {
+      "message": "Voer licentiecode"
+   },
+   "textarea_placeholder": {
+      "message": "Vul hier de licentiecode"
+   },
+   "btn_more_locations": {
+      "message": "Meer locaties"
+   },
+   "btn_buy": {
+      "message": "Klik hier <br/> om een licentie te kopen"
+   },
+   "btn_enter": {
+      "message": "Hebben een volledige licentie? <br/> Voer de code"
+   },
+   "badger1": {
+      "message": "Recente locaties"
+   },
+   "badger2": {
+      "message": "Alle beschikbare locaties"
+   },
+   "please_upgrade_msg": {
+      "message": "Upgrade naar toegang tot deze proxy locatie."
+   },
+   "please_select_another_msg": {
+      "message": "Selecteer een andere proxy locatie."
+   },
+   "invalid_key_msg": {
+      "message": "Ongeldige sleutel."
+   }
+}
+

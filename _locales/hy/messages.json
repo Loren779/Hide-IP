@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Հաջողություն!"
+   },
+   "btn_back": {
+      "message": "Back"
+   },
+   "btn_enter_license_key": {
+      "message": "Մուտքագրեք արտոնագրի բանալին"
+   },
+   "textarea_placeholder": {
+      "message": "Խնդրում ենք մուտքագրել լիցենզիայի կոդը այստեղ"
+   },
+   "btn_more_locations": {
+      "message": "Լրացուցիչ Locations"
+   },
+   "btn_buy": {
+      "message": "Սեղմեք այստեղ <br/> է ձեռք բերել լիցենզիա"
+   },
+   "btn_enter": {
+      "message": "Ունեն լիարժեք լիցենզիա. <br/> Մուտքագրեք կոդը"
+   },
+   "badger1": {
+      "message": "Վերջին Locations"
+   },
+   "badger2": {
+      "message": "Բոլոր մատչելի Locations"
+   },
+   "please_upgrade_msg": {
+      "message": "Խնդրում ենք բարելավել մուտք գործել այս վստահված դիրքը."
+   },
+   "please_select_another_msg": {
+      "message": "Խնդրում ենք ընտրել մեկ այլ վստահված դիրքը."
+   },
+   "invalid_key_msg": {
+      "message": "Անվավեր բանալին."
+   }
+}
+

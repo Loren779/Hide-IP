@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Successo!"
+   },
+   "btn_back": {
+      "message": "Indietro"
+   },
+   "btn_enter_license_key": {
+      "message": "Inserisci codice di licenza"
+   },
+   "textarea_placeholder": {
+      "message": "Si prega di inserire il codice di licenza qui"
+   },
+   "btn_more_locations": {
+      "message": "Altre zone"
+   },
+   "btn_buy": {
+      "message": "Clicca qui <br/> per acquistare una licenza"
+   },
+   "btn_enter": {
+      "message": "Avere una licenza completa? <br/> Inserisci il codice"
+   },
+   "badger1": {
+      "message": "Località recenti"
+   },
+   "badger2": {
+      "message": "Tutte le posizioni disponibili"
+   },
+   "please_upgrade_msg": {
+      "message": "Aggiornare per accedere a questa posizione proxy."
+   },
+   "please_select_another_msg": {
+      "message": "Si prega di selezionarne un altro proxy."
+   },
+   "invalid_key_msg": {
+      "message": "Chiave non valida."
+   }
+}
+

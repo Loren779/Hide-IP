@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Hoppsan!"
+   },
+   "success_msg": {
+      "message": "Framgång!"
+   },
+   "btn_back": {
+      "message": "Tillbaka"
+   },
+   "btn_enter_license_key": {
+      "message": "Ange licensnyckel"
+   },
+   "textarea_placeholder": {
+      "message": "Ange licenskoden här"
+   },
+   "btn_more_locations": {
+      "message": "Fler platser"
+   },
+   "btn_buy": {
+      "message": "Klicka här <br/> att köpa en licens"
+   },
+   "btn_enter": {
+      "message": "Ha en full licens? <br/> Ange koden"
+   },
+   "badger1": {
+      "message": "Plats"
+   },
+   "badger2": {
+      "message": "Alla tillgängliga platser"
+   },
+   "please_upgrade_msg": {
+      "message": "Uppgradera vill sjunga den här proxy plats."
+   },
+   "please_select_another_msg": {
+      "message": "Välj en annan proxy plats."
+   },
+   "invalid_key_msg": {
+      "message": "Ogiltig nyckel."
+   }
+}
+

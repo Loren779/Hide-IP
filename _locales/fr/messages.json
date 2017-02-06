@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Succès!"
+   },
+   "btn_back": {
+      "message": "Arrière"
+   },
+   "btn_enter_license_key": {
+      "message": "Entrez la clé de licence"
+   },
+   "textarea_placeholder": {
+      "message": "S'il vous plaît entrez le code de licence ici"
+   },
+   "btn_more_locations": {
+      "message": "Plus d'emplacements"
+   },
+   "btn_buy": {
+      "message": "Cliquez ici <br/> d'acheter une licence"
+   },
+   "btn_enter": {
+      "message": "Avoir une licence complète? <br/> Entrez le code"
+   },
+   "badger1": {
+      "message": "Lieux récents"
+   },
+   "badger2": {
+      "message": "Tous les emplacements disponibles"
+   },
+   "please_upgrade_msg": {
+      "message": "S'il vous plaît passer à accéder à cet emplacement proxy."
+   },
+   "please_select_another_msg": {
+      "message": "S'il vous plaît sélectionner un autre emplacement proxy."
+   },
+   "invalid_key_msg": {
+      "message": "Clé non valide."
+   }
+}
+

@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Erfolg!"
+   },
+   "btn_back": {
+      "message": "Zurück"
+   },
+   "btn_enter_license_key": {
+      "message": "Lizenzschlüssel eingeben"
+   },
+   "textarea_placeholder": {
+      "message": "Bitte geben Sie den Lizenzcode hier"
+   },
+   "btn_more_locations": {
+      "message": "Weitere Standorte"
+   },
+   "btn_buy": {
+      "message": "Klicken Sie hier, <br/> eine Lizenz erwerben"
+   },
+   "btn_enter": {
+      "message": "Haben Sie eine Voll-Lizenz? <br/> Kennzahl eingeben"
+   },
+   "badger1": {
+      "message": "Zuletzt verwendete Orte"
+   },
+   "badger2": {
+      "message": "Alle Stellen Standorte"
+   },
+   "please_upgrade_msg": {
+      "message": "Bitte aktualisieren Sie, um dieses Proxy-Standort."
+   },
+   "please_select_another_msg": {
+      "message": "Bitte wählen Sie einen anderen Proxy-Lage."
+   },
+   "invalid_key_msg": {
+      "message": "Ungültiger Schlüssel."
+   }
+}
+

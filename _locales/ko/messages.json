@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "아차!"
+   },
+   "success_msg": {
+      "message": "성공!"
+   },
+   "btn_back": {
+      "message": "백"
+   },
+   "btn_enter_license_key": {
+      "message": "라이센스 키를 입력"
+   },
+   "textarea_placeholder": {
+      "message": "여기에 라이센스 코드를 입력하세요"
+   },
+   "btn_more_locations": {
+      "message": "더 많은 지역"
+   },
+   "btn_buy": {
+      "message": "여기를 클릭하면 라이센스를 구입 <BR/>"
+   },
+   "btn_enter": {
+      "message": "정식 라이센스이 있나요? 코드를 입력 <BR/>"
+   },
+   "badger1": {
+      "message": "최근 위치"
+   },
+   "badger2": {
+      "message": "가능한 모든 위치"
+   },
+   "please_upgrade_msg": {
+      "message": "이 프록시 위치에 액세스하기 위해 업그레이드하십시오."
+   },
+   "please_select_another_msg": {
+      "message": "다른 프록시 위치를 선택하십시오."
+   },
+   "invalid_key_msg": {
+      "message": "잘못된 키를 누릅니다."
+   }
+}
+

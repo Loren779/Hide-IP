@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Ups!"
+   },
+   "success_msg": {
+      "message": "Sukces!"
+   },
+   "btn_back": {
+      "message": "Plecy"
+   },
+   "btn_enter_license_key": {
+      "message": "Wprowadź klucz licencyjny"
+   },
+   "textarea_placeholder": {
+      "message": "Prosimy wpisać kod licencyjny tutaj"
+   },
+   "btn_more_locations": {
+      "message": "Więcej Lokalizacje"
+   },
+   "btn_buy": {
+      "message": "Kliknij tutaj <br/> kupić licencję"
+   },
+   "btn_enter": {
+      "message": "Posiada pełną licencję? <br/> Wprowadź kod"
+   },
+   "badger1": {
+      "message": "Najnowsze Lokalizacje"
+   },
+   "badger2": {
+      "message": "Wszystkie dostępne lokalizacje"
+   },
+   "please_upgrade_msg": {
+      "message": "Proszę uaktualnić do dostępu do tej lokalizacji proxy."
+   },
+   "please_select_another_msg": {
+      "message": "Proszę wybrać inną lokalizację proxy."
+   },
+   "invalid_key_msg": {
+      "message": "Błędny klucz."
+   }
+}
+

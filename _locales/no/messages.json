@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Suksess!"
+   },
+   "btn_back": {
+      "message": "Tilbake"
+   },
+   "btn_enter_license_key": {
+      "message": "Skriv inn License Key"
+   },
+   "textarea_placeholder": {
+      "message": "Fyll inn lisenskoden her"
+   },
+   "btn_more_locations": {
+      "message": "Flere Steder"
+   },
+   "btn_buy": {
+      "message": "Klikk her <br/> å kjøpe en lisens"
+   },
+   "btn_enter": {
+      "message": "Ha en full lisens? <br/> Skriv inn koden"
+   },
+   "badger1": {
+      "message": "Nylige steder"
+   },
+   "badger2": {
+      "message": "Alle tilgjengelige steder"
+   },
+   "please_upgrade_msg": {
+      "message": "Oppgrader til tilgang til denne proxy sted."
+   },
+   "please_select_another_msg": {
+      "message": "Vennligst velg en annen proxy sted."
+   },
+   "invalid_key_msg": {
+      "message": "Ugyldig nøkkel."
+   }
+}
+

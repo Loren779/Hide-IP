@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": ""
+   },
+   "success_msg": {
+      "message": ""
+   },
+   "btn_back": {
+      "message": ""
+   },
+   "btn_enter_license_key": {
+      "message": ""
+   },
+   "textarea_placeholder": {
+      "message": ""
+   },
+   "btn_more_locations": {
+      "message": ""
+   },
+   "btn_buy": {
+      "message": ""
+   },
+   "btn_enter": {
+      "message": ""
+   },
+   "badger1": {
+      "message": ""
+   },
+   "badger2": {
+      "message": ""
+   },
+   "please_upgrade_msg": {
+      "message": ""
+   },
+   "please_select_another_msg": {
+      "message": ""
+   },
+   "invalid_key_msg": {
+      "message": ""
+   }
+}
+

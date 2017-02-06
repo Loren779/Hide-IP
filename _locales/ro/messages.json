@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Hopa!"
+   },
+   "success_msg": {
+      "message": "Succes!"
+   },
+   "btn_back": {
+      "message": "Spate"
+   },
+   "btn_enter_license_key": {
+      "message": "Introduceți cheia de licență"
+   },
+   "textarea_placeholder": {
+      "message": "Va rugam sa introduceti codul de licență aici"
+   },
+   "btn_more_locations": {
+      "message": "Mai multe locații"
+   },
+   "btn_buy": {
+      "message": "Click aici pentru <br/> pentru a cumpăra o licență"
+   },
+   "btn_enter": {
+      "message": "Ai o licență completă? <br/> Introduceți codul"
+   },
+   "badger1": {
+      "message": "Locații recente"
+   },
+   "badger2": {
+      "message": "Toate locațiile disponibile"
+   },
+   "please_upgrade_msg": {
+      "message": "Vă rugăm să faceți upgrade pentru a accesa această locație proxy."
+   },
+   "please_select_another_msg": {
+      "message": "Vă rugăm să selectați altă locație proxy."
+   },
+   "invalid_key_msg": {
+      "message": "Cheie invalida."
+   }
+}
+

@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "哎呀！"
+   },
+   "success_msg": {
+      "message": "成功了！"
+   },
+   "btn_back": {
+      "message": "背部"
+   },
+   "btn_enter_license_key": {
+      "message": "输入许可证密钥"
+   },
+   "textarea_placeholder": {
+      "message": "请在此输入授权码"
+   },
+   "btn_more_locations": {
+      "message": "更多地点"
+   },
+   "btn_buy": {
+      "message": "点击这里<BR/>买一个牌照"
+   },
+   "btn_enter": {
+      "message": "有充分的授权？<BR/>输入验证码"
+   },
+   "badger1": {
+      "message": "最近的位置"
+   },
+   "badger2": {
+      "message": "所有可用的位置"
+   },
+   "please_upgrade_msg": {
+      "message": "请升级到访问该代理服务器的位置。"
+   },
+   "please_select_another_msg": {
+      "message": "请选择其他代理的位置。"
+   },
+   "invalid_key_msg": {
+      "message": "无效的密钥。"
+   }
+}
+

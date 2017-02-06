@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400' rel='stylesheet' type='text/css'>
+  -->
+  <link href='lib/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <link href="popup.css" rel="stylesheet" type='text/css' />
+</head>
+<body>
+
+  <div id="proxy-list"></div>
+
+  <div id="enter-code-div">
+    <textarea id="textarea_key"
+              class="input" 
+              placeholder=''
+              ></textarea>
+
+    <div id="btn_enterCode"><i class="fa fa-key"></i><span></span></div>
+    <div id="btn_back"><i class="fa fa-reply"></i><span></span></div>
+
+  </div>
+  <div id="separator"><!-- --></div>
+  <div id="status-message"></div>
+
+  <div id="loader">
+    <img src="img/loading_bar1.gif">
+  </div>
+
+  <script src="lib/jquery-2.2.4.js"></script>
+  <script src="lib/jquery.transit.js"></script>
+  <script src="lib/jquery.blockUI.js"></script>
+  <script src="lib/jquery.tooltipster.js"></script>
+  <script src="lib/chrome-storage.js"></script>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

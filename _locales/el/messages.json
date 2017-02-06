@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Ωχ!"
+   },
+   "success_msg": {
+      "message": "Επιτυχία!"
+   },
+   "btn_back": {
+      "message": "πίσω"
+   },
+   "btn_enter_license_key": {
+      "message": "Εισάγετε Κλειδί άδειας χρήσης"
+   },
+   "textarea_placeholder": {
+      "message": "Παρακαλώ εισάγετε τον κωδικό άδειας χρήσης εδώ"
+   },
+   "btn_more_locations": {
+      "message": "περισσότερα Τοποθεσίες"
+   },
+   "btn_buy": {
+      "message": "Κάντε κλικ εδώ για <br/> να αγοράσει μια άδεια"
+   },
+   "btn_enter": {
+      "message": "Ρίξτε μια πλήρη άδεια; <br/> Εισάγετε τον κωδικό"
+   },
+   "badger1": {
+      "message": "Πρόσφατες θέσεις"
+   },
+   "badger2": {
+      "message": "Όλες οι διαθέσιμες περιοχές"
+   },
+   "please_upgrade_msg": {
+      "message": "Παρακαλώ αναβαθμίστε να αποκτήσετε πρόσβαση σε αυτήν την τοποθεσία μεσολάβησης."
+   },
+   "please_select_another_msg": {
+      "message": "Παρακαλούμε επιλέξτε άλλη τοποθεσία μεσολάβησης."
+   },
+   "invalid_key_msg": {
+      "message": "Μη έγκυρο κλειδί."
+   }
+}
+

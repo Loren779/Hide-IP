@@ -1,0 +1,1010 @@
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), 
+       url('../fonts/SourceSansPro-Regular.ttf') format('truetype'),
+       url('../fonts/SourceSansPro-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), 
+       url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
+       url('../fonts/SourceSansPro-Bold.ttf.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  margin:0;
+  padding:0;
+  width: 360px;
+  background-color:#fafafa;
+  min-height: 48px;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  -webkit-transition: translate3d(0,0,0);
+  /*
+  min-height: 28px;
+  width: 340px;
+  font: 13px 'trebuchet MS', 'lucida sans';
+  */
+}
+
+
+
+/*  tooltipster
+
+    This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): 
+*/
+
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+  /* border-color: ... !important; */
+}
+
+.tooltipster-light {
+  border-radius: 5px; 
+  border: 1px solid #00acf7;
+  background: #eee;
+  color: #000;
+  box-shadow: 3px 6px 15px 0px rgba(0,0,0,0.55);
+}
+.tooltipster-light .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 10px;
+}
+
+
+.tooltipster-error {
+  border-radius: 5px; 
+  border: 1px solid red;
+  background: #eee;
+  color: #000;
+  box-shadow: 3px 6px 15px 0px rgba(0,0,0,0.55);
+}
+.tooltipster-error .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 10px;
+}
+
+
+/* If you're using the icon option, use this next selector to style them */
+.tooltipster-icon {
+  cursor: help;
+  margin-left: 4px;
+}
+
+
+/* This is the base styling required to make all Tooltipsters work */
+.tooltipster-base {
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+  pointer-events: none;
+  width: auto;
+  overflow: visible;
+}
+.tooltipster-base .tooltipster-content {
+  overflow: hidden;
+}
+
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+.tooltipster-arrow {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.tooltipster-arrow span, .tooltipster-arrow-border {
+  display: block;
+  width: 0; 
+  height: 0;
+  position: absolute;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-top: 8px solid;
+  bottom: -7px;
+}
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+  border-left: 9px solid transparent !important;
+  border-right: 9px solid transparent !important;
+  border-top: 9px solid;
+  bottom: -7px;
+}
+
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-bottom: 8px solid;
+  top: -7px;
+}
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  border-left: 9px solid transparent !important;
+  border-right: 9px solid transparent !important;
+  border-bottom: 9px solid;
+  top: -7px;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+  left: 6px;
+}
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  left: 5px;
+}
+.tooltipster-arrow-top-right span,  .tooltipster-arrow-bottom-right span {
+  right: 6px;
+}
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+  right: 5px;
+}
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important; 
+  border-left: 8px solid;
+  top: 50%;
+  margin-top: -7px;
+  right: -7px;
+}
+.tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid transparent !important; 
+  border-left: 9px solid;
+  margin-top: -8px;
+}
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important; 
+  border-right: 8px solid;
+  top: 50%;
+  margin-top: -7px;
+  left: -7px;
+}
+.tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid transparent !important; 
+  border-right: 9px solid;
+  margin-top: -8px;
+}
+
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+
+.tooltipster-fade {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity;
+}
+.tooltipster-fade-show {
+  opacity: 1;
+}
+
+.tooltipster-grow {
+  -webkit-transform: scale(0,0);
+  -moz-transform: scale(0,0);
+  -o-transform: scale(0,0);
+  -ms-transform: scale(0,0);
+  transform: scale(0,0);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-backface-visibility: hidden;
+}
+.tooltipster-grow-show {
+  -webkit-transform: scale(1,1);
+  -moz-transform: scale(1,1);
+  -o-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+
+.tooltipster-swing {
+  opacity: 0;
+  -webkit-transform: rotateZ(4deg);
+  -moz-transform: rotateZ(4deg);
+  -o-transform: rotateZ(4deg);
+  -ms-transform: rotateZ(4deg);
+  transform: rotateZ(4deg);
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+}
+.tooltipster-swing-show {
+  opacity: 1;
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+  -moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+  -ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+  -o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+  transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+}
+
+.tooltipster-fall {
+  top: 0;
+  -webkit-transition-property: top;
+  -moz-transition-property: top;
+  -o-transition-property: top;
+  -ms-transition-property: top;
+  transition-property: top;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+}
+.tooltipster-fall-show {
+}
+.tooltipster-fall.tooltipster-dying {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  top: 0px !important;
+  opacity: 0;
+}
+
+.tooltipster-slide {
+  left: -40px;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  -ms-transition-property: left;
+  transition-property: left;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+.tooltipster-slide.tooltipster-slide-show {
+}
+.tooltipster-slide.tooltipster-dying {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  left: 0px !important;
+  opacity: 0;
+}
+
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+.tooltipster-content-changing {
+  opacity: 0.5;
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+/* end of tooltipster */
+
+
+
+
+#proxy-list {
+/*
+  max-height:300px;
+*/
+  max-height: 400px;
+  height: 400px;
+  overflow: auto;
+}
+
+#enter-code-div {
+  max-height: 400px;
+  height: 400px;
+  overflow: auto;
+/*
+  background-color: #dff0d8;
+*/
+}
+
+#separator {
+  margin:10px 0;
+  height:2px;
+  border-top: 1px solid #e4e5e8;
+  border-bottom:1px solid #fff;
+}
+
+#status-message {
+  margin:7px;
+  padding:15px;
+  font-size:15px;
+  text-align: center;
+  color: #468847;
+  border: 1px solid #d6e9c6;
+  background-color: #dff0d8;
+  border-radius:3px;
+  text-shadow: 0px 1px 1px #fff;
+}
+#status-message strong {
+  font-size:17px;
+  font-weight:bold;
+}
+#status-message.error {
+  color: #b94a48;
+  border: 1px solid #eed3d7;
+  background-color: #f2dede;
+}
+
+
+/* 
+  //[btns more -> order | enter code]
+*/
+
+div.parent_more {
+  position: relative;
+  /*
+  background-color: red;
+  */
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 5px 20px 10px 20px;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  min-width: 45%;
+  width: 80%;
+  height: 31px;
+  vertical-align: middle;
+  line-height: 31px;
+  -webkit-user-select: none !important;
+  cursor: default;
+}
+
+div.btn_more {
+  position: relative;
+  margin: 0;
+  margin-left: 41px;
+  margin-top: -5px;
+  background-color: #00acf7;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'MyriadProRegular', arial;
+  padding: 7px 20px;
+  text-align: center;
+  min-width: 45%;
+  width: 160px;
+  vertical-align: middle;
+  height: 32px;
+  line-height: 31px;
+  -webkit-user-select: none !important;
+  cursor: pointer !important;
+  -webkit-transition: translate3d(0,0,0);
+  border: none;
+}
+
+div.btn_more :hover {
+}
+
+
+
+div.btn_buy, div.btn_enter {
+  position: relative;
+  margin: 0;
+  margin-left: 35px;
+  margin-top: -5px;
+  background-color: #00acf7;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'MyriadProRegular', arial;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  min-width: 10%;
+  width: 130px;
+  vertical-align: middle;
+  min-height: 31px;
+  line-height: 18px;
+  -webkit-user-select: none !important;
+  cursor: pointer;
+  -webkit-transition: translate3d(0,0,0);
+  border: none;
+}
+
+/*
+  -webkit-transition: all 0.1s linear;
+
+*/
+div.btn_enter {
+  margin: 0;
+  margin-left: 105px;
+  margin-top: -46px;
+}
+
+
+#textarea_key {
+  margin: 30% 36px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 284px;
+  line-height: 30px;
+  vertical-align: middle;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* 
+  padding: 10px;
+  padding-bottom: 8px;
+  line-height: 20px;
+  */
+  box-sizing: border-box;
+  border: 1px solid #A1A1A1;
+  color: #000;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+#textarea_key:focus {
+}
+
+#textarea_key.readonly_enabled:focus {
+  border: 3px solid #ccc;
+}
+
+#textarea_key.key_valid {
+  border: 3px solid green; /*  00acf7 */
+}
+
+#textarea_key.key_valid:focus {
+  border: 3px solid green;
+}
+
+#textarea_key.key_invalid {
+  border: 3px solid red;
+}
+
+#textarea_key.key_invalid:focus {
+  border: 3px solid red;
+}
+
+
+#btn_enterCode, #btn_back {
+  position: relative;
+  margin: 0;
+  margin-left: calc(20% - 6px);
+  background-color: #00ACF7;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'MyriadProRegular', arial;
+  padding: 7px 7px 2px;
+  text-align: center;
+  min-width: 10%;
+  height: 20px;
+  width: 125px;
+  vertical-align: middle;
+  -webkit-user-select: none !important;
+  cursor: pointer;
+}
+
+#btn_enterCode i{
+  margin: 0;
+  margin-right: 4px;
+  margin-left: -3px;
+}
+
+#btn_enterCode.disabled, #btn_back.disabled {
+  background-color: #545454;
+  cursor: default;
+}
+
+
+#btn_back {
+  margin-left: 214px;
+  margin-right: 20%;
+  margin-top: -29px;
+  width: 65px;
+}
+
+#btn_back i {
+  margin: 0;
+  margin-right: 6px;
+}
+
+
+.menu-item {
+
+  overflow: hidden !important;
+
+  vertical-align: middle;
+  height: 24px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px !important;
+
+  margin-top: 0px;
+  margin-bottom: 1px;
+  cursor: context-menu;
+  -webkit-user-select: none;
+  cursor: pointer;
+/* //[menu-item]
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#383839));
+
+  margin-top: 6px;
+  margin-bottom: 6px;
+  
+  background-color: #fa8072;
+  background-color: #87ceeb;
+  text-align: center;
+  height: 30px;
+  height: 23px;
+
+  padding: 1px;
+  margin: 0;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+    position: relative;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+  background-color: #eee;
+  background-color: #ddd;
+*/
+}
+
+.menu-item:hover {
+/*
+  old - background: rgba(6, 4, 255, 0.2);
+  242, 222, 222 - color of "Please upgrade to access this proxy location"
+*/
+  background: rgba(242, 222, 222, 0.8);
+}
+
+/*
+  text-shadow: 0 0 4px rgba(1,1,1,.4);
+  background-color: #87ceeb;
+.menu-item:hover {
+  background: rgba(6, 4, 255, 0.2);
+  background: rgba(222, 222, 222, 0.2);
+  background-color: #87ceeb;
+  color: #123;
+  color: #fff;
+}
+*/
+
+ 
+.active .menu-item-text {
+  font-weight: bold;
+}
+
+div.free-proxy:hover {
+  background: rgba(6, 134, 55, 0.2) !important;
+}
+
+.menu-item-subitem {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+
+/* //[subitem]
+  vertical-align: text-top;
+  padding-bottom: 3px;
+  height: 20px;
+  */
+}
+
+
+.menu-item-text {
+  position: relative;
+  vertical-align: middle;
+  min-height: 20px !important;
+  width: 20px !important;
+  padding: 0;
+  padding-left: 6px;
+  margin: 0;
+
+  line-height: 26px !important; /*    vertical-align     */
+
+  /* //[menu-item-text]
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  height: 20px;
+  background-color: black;
+  background-color: #ddd;
+  */
+}
+
+
+.menu-flag {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  top: -1px;
+
+  /*
+  */
+}
+
+
+.menu-item-loader {
+  display: inline-block;
+  background-image: url(img/loading_bar2.gif);
+  /*
+  background-color: #fff;
+  */
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  min-width: 140px !important;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+
+i.toggle-button {
+  /*  
+  background-image: url(img/off2.png);
+  color: red;
+  width: 22px;
+  height: 21px;
+  color: #333;
+  color: #87ceeb;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  text-shadow: 1px 1px 1px rgba(1,1,1,.5);
+  text-shadow: 0 0 3px rgba(1,1,1,.5);
+  text-shadow: 0 0 3px rgba(255,255,255,.5);
+  text-shadow: 0 0 6px rgba(135,206,235,1.0);
+  text-shadow: 0 0 3px rgba(255,255,1,.5);
+  float: right;
+  padding-left: 4px !important;
+  color: #111;
+  color: #fa8072;
+  background-color: #fff;
+
+  margin-top: -9px !important;
+  //[toggle-button]
+  color: #ddd !important;
+  */
+
+  color: #fff !important;
+
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+
+  height: 20px;
+  width: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 3px !important;
+}
+
+
+i.toggle-button-empty {
+  visibility: hidden;
+  position: relative;
+
+  height: 20px;
+  width: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 3px !important;
+}
+
+  /*
+.toggle-button :hover {
+  13 color: #fff !important;
+  color: red !important;
+}
+  */
+
+
+i.toggle-button-active {
+  color: #000;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+
+  height: 20px;
+  width: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 3px !important;
+  text-shadow: 0 0 1px rgba(1,1,1,.5)  !important;
+}
+
+.toggle-button-turn-off {
+/*
+  color: red;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+*/
+  color: red;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+
+  height: 20px;
+  width: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 3px !important;
+}
+
+
+
+ /*
+.menu-item.active .toggle-button {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-image: url(img/on2.png);
+
+  border: .3em solid #fff;
+  border-radius: 2em;
+
+  border-radius: 2em;
+  border: .4em solid #fff;
+
+  border-radius: 6.8em;
+  border: .3em solid #fff;
+  width: 22px;
+  height: 21px;
+  position: relative;
+}
+*/
+
+#loader {
+  position: absolute;
+}
+
+#loader img {
+  margin-left: -20px;
+}
+
+.space_before_recent {
+  position: relative;
+  height: 15px;
+  background-color: #eee;
+  color: #111;
+  
+  border-top-left-radius: 6px
+}
+
+
+.badger1 {
+  position: relative;
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  margin-left: 8%;
+  width: 80%;
+  text-align: center;
+  font: 13px 'Arial';
+  color: #777;
+  height: 12px;
+  border: 2px solid #ddd;
+  border-radius: 0.8em  0.8em 0.8em 0.8em;
+  cursor: default;
+  -webkit-user-select: none !important;
+}
+
+
+.badger2 {
+  position: relative;
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 8%;
+  width: 80%;
+  text-align: center;
+  font: 13px 'Arial';
+  color: #777;
+  height: 12px;
+  border: 2px solid #ddd;
+  border-radius: 0.8em  0.8em 0.8em 0.8em;
+  cursor: default;
+  -webkit-user-select: none !important;
+}
+
+.fa {
+  top: 1px;
+}
+
+
+/*
+   Select Locations List
+*/
+
+div#select-locations-list {
+  margin: 15px;
+  width: 260px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 5px;
+  padding-left: 20px;
+  border: 1px #00acf7 dotted;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: block;
+}
+
+input[type="radio"] + label:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 12px;
+  width: 10px;
+}
+
+input[type="radio"] + label:before {
+  content: "\f1db"; /* Radio Unchecked f10c http://fontawesome.io/cheatsheet/ */
+}
+
+input[type="radio"]:disabled + label:before {
+  content: "\f1db"; 
+  color: #aaa !important;
+}
+
+input[type="radio"]:checked + label:before {
+  content: "\f18e"; /* Radio Checked  f05d  */
+}
+
+.select-list-radio label {
+  color: #444;
+  text-shadow: none;
+  padding-left: 2px;
+  font-size: 1.2em;
+  cursor: pointer;
+  -webkit-user-select: none !important;
+}
+
+.select-list-radio .selected-label {
+  color: #111;
+  text-shadow: 0px 1px 1px #aaa;
+}
+
+input[type="radio"]:disabled + label {
+  color: #aaa !important;
+  cursor: default !important;
+  text-shadow: none;
+}
+
+
+/*
+   Checkbox for "Prevent WebRTC Leak"
+*/
+ 
+div#checkbox-prevent-leak {
+  margin: 15px;
+  width: 230px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 0;
+  border: 1px #00acf7 dotted;
+}
+
+div#checkbox-prevent-leak.red_border {
+  border: 1px red dotted;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 10px;
+  width: 10px;
+}
+
+input[type="checkbox"] + label:before {
+  content: "\f096"; /* Checkbox Unchecked */
+}
+input[type="checkbox"] + label:after {
+  content: "\f059"; /* ? */
+  color: #00acf7;
+  opacity: 0.9;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 7px;
+  padding-right: 0;
+  width: 25px;
+}
+input[type="checkbox"]:checked + label:before {
+  content: "\f046"; /* Checkbox Checked */
+}
+div.preventleak label {
+  line-height: 1;
+  vertical-align: middle;
+  color: #000;
+  padding-left: 2px;
+  font-size: 1.1em;
+  cursor: pointer;
+  -webkit-user-select: none !important;
+}
+input[type="checkbox"]:disabled + label {
+  color: #aaa !important;
+  cursor: default !important;
+  text-shadow: none;
+}
+ 
+
+

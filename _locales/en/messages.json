@@ -1,0 +1,50 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Success!"
+   },
+   "btn_back": {
+      "message": "Back"
+   },
+   "btn_enter_license_key": {
+      "message": "Enter License Key"
+   },
+   "textarea_placeholder": {
+      "message": "Please enter the license code here"
+   },
+   "btn_more_locations": {
+      "message": "More Locations"
+   },
+   "btn_buy": {
+      "message": "Click here<br/>to buy a license"
+   },
+   "btn_enter": {
+      "message": "Have a full license?<br/>Enter the code"
+   },
+   "badger1": {
+      "message": "Recent Locations"
+   },
+   "badger2": {
+      "message": "All Available Locations"
+   },
+   "please_upgrade_msg": {
+      "message": "Please upgrade to access this proxy location."
+   },
+   "please_select_another_msg": {
+      "message": "Please select another proxy location."
+   },
+   "invalid_key_msg": {
+      "message": "Invalid key."
+   },
+   "success_key_msg": {
+      "message": "Thank you for activating Hide My IP!"
+   },
+   "btn_more": {
+      "message": "More"
+   },
+   "btn_change": {
+      "message": "Change License Key<br/>&nbsp;"
+   }
+}

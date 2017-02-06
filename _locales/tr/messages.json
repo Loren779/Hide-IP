@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "Başarı!"
+   },
+   "btn_back": {
+      "message": "Sırt"
+   },
+   "btn_enter_license_key": {
+      "message": "Lisans Anahtarını girin"
+   },
+   "textarea_placeholder": {
+      "message": "Burada lisans kodunu giriniz"
+   },
+   "btn_more_locations": {
+      "message": "Daha Mekanlar"
+   },
+   "btn_buy": {
+      "message": "Tıklayın bir lisans satın almak <br/>"
+   },
+   "btn_enter": {
+      "message": "Tam bir lisans var mı? Kodunu girin <br/>"
+   },
+   "badger1": {
+      "message": "Son Mekanlar"
+   },
+   "badger2": {
+      "message": "Tüm Kullanılabilir Mekanlar"
+   },
+   "please_upgrade_msg": {
+      "message": "Bu vekil konuma erişmek için yükseltin."
+   },
+   "please_select_another_msg": {
+      "message": "Başka bir vekil konumunu seçiniz."
+   },
+   "invalid_key_msg": {
+      "message": "Geçersiz anahtar."
+   }
+}
+

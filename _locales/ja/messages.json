@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "おっとっと！"
+   },
+   "success_msg": {
+      "message": "成功！"
+   },
+   "btn_back": {
+      "message": "バック"
+   },
+   "btn_enter_license_key": {
+      "message": "ライセンスキーを入力します"
+   },
+   "textarea_placeholder": {
+      "message": "ここでライセンスコードを入力してください"
+   },
+   "btn_more_locations": {
+      "message": "その他の場所"
+   },
+   "btn_buy": {
+      "message": "こちらをクリックして、ライセンスを購入します<BR/>"
+   },
+   "btn_enter": {
+      "message": "フルライセンスをお持ちですか？コードを入力し<BR/>"
+   },
+   "badger1": {
+      "message": "最近の場所"
+   },
+   "badger2": {
+      "message": "すべての利用可能な場所"
+   },
+   "please_upgrade_msg": {
+      "message": "このプロキシ場所にアクセスするためにアップグレードしてください。"
+   },
+   "please_select_another_msg": {
+      "message": "別のプロキシの場所を選択してください。"
+   },
+   "invalid_key_msg": {
+      "message": "無効なキー。"
+   }
+}
+

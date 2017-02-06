@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "אופס!"
+   },
+   "success_msg": {
+      "message": "הצלחה!"
+   },
+   "btn_back": {
+      "message": "חזור"
+   },
+   "btn_enter_license_key": {
+      "message": "הזן את מפתח רישיון"
+   },
+   "textarea_placeholder": {
+      "message": "נא להזין את קוד הרישיון כאן"
+   },
+   "btn_more_locations": {
+      "message": "עוד מיקומים"
+   },
+   "btn_buy": {
+      "message": "לחץ כאן <br/> לקנות רישיון"
+   },
+   "btn_enter": {
+      "message": "יש רישיון מלא? <br/> הקש את הקוד"
+   },
+   "badger1": {
+      "message": "מיקומים אחרונים"
+   },
+   "badger2": {
+      "message": "כל המיקומים זמינים"
+   },
+   "please_upgrade_msg": {
+      "message": "שדרג לגשת מיקום proxy זה."
+   },
+   "please_select_another_msg": {
+      "message": "אנא בחר מיקום אחר פרוקסי."
+   },
+   "invalid_key_msg": {
+      "message": "מפתח לא חוקי."
+   }
+}
+

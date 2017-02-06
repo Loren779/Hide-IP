@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Oops!"
+   },
+   "success_msg": {
+      "message": "ที่ประสบความสำเร็จ!"
+   },
+   "btn_back": {
+      "message": "ด้านหลัง"
+   },
+   "btn_enter_license_key": {
+      "message": "ใส่คีย์ใบอนุญาต"
+   },
+   "textarea_placeholder": {
+      "message": "กรุณาใส่รหัสใบอนุญาตที่นี่"
+   },
+   "btn_more_locations": {
+      "message": "สถานที่อื่น ๆ"
+   },
+   "btn_buy": {
+      "message": "คลิกที่นี่ <br/> ซื้อใบอนุญาต"
+   },
+   "btn_enter": {
+      "message": "มีใบอนุญาตเต็มรูปแบบ? <br/> ป้อนรหัส"
+   },
+   "badger1": {
+      "message": "สถานที่ล่าสุด"
+   },
+   "badger2": {
+      "message": "สถานที่ทั้งหมดที่มีจำหน่าย"
+   },
+   "please_upgrade_msg": {
+      "message": "กรุณาอัพเกรดเข้าถึงตำแหน่งนี้พร็อกซี่"
+   },
+   "please_select_another_msg": {
+      "message": "กรุณาเลือกสถานที่ตั้งพร็อกซี่อื่น"
+   },
+   "invalid_key_msg": {
+      "message": "กุญแจนี้ใช้ไม่ได้."
+   }
+}
+

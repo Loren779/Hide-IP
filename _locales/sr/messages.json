@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Ups!"
+   },
+   "success_msg": {
+      "message": "Gotovo!"
+   },
+   "btn_back": {
+      "message": "Nazad"
+   },
+   "btn_enter_license_key": {
+      "message": "Unesi Licencni Ključ"
+   },
+   "textarea_placeholder": {
+      "message": "Molimo vas unesite licencni ključ ovde"
+   },
+   "btn_more_locations": {
+      "message": "Više Lokacija"
+   },
+   "btn_buy": {
+      "message": "Kliknite ovde<br/>da kupite licencu"
+   },
+   "btn_enter": {
+      "message": "Već imate licencu?<br/>Unesite ključ"
+   },
+   "badger1": {
+      "message": "Poslednje Lokacije"
+   },
+   "badger2": {
+      "message": "Sve Dostupne Lokacije"
+   },
+   "please_upgrade_msg": {
+      "message": "Molimo vas nadogradite vašu verziju da pristupite ovoj proksi lokaciji."
+   },
+   "please_select_another_msg": {
+      "message": "Molimo vas odaberite drugu proksi lokaciju."
+   },
+   "invalid_key_msg": {
+      "message": "Pogrešan ključ."
+   }
+}
+

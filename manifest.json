@@ -1,0 +1,40 @@
+{
+  "name": "Hide My IP",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [ 
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "storage",
+    "proxy", 
+    "privacy"
+  ],
+  "background": {
+    "scripts": [ 
+      "lib/jquery-2.2.4.js", 
+      "lib/chrome-storage.js",
+      "storage.js", 
+      "proxyAdapter.js", 
+      "dataService.js", 
+      "bg.js" ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "img/disabled.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Hide My IP"
+  },
+  "default_locale": "en",
+  "description": "Hide Your IP Address for Free!",
+  "icons": {
+    "48": "img/icon.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "48",
+  "short_name": "HMIP",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.21"
+}
+

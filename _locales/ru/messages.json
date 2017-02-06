@@ -1,0 +1,51 @@
+{
+   "oops_msg": {
+      "message": "Ошибка!"
+   },
+   "success_msg": {
+      "message": "Готово!"
+   },
+   "btn_back": {
+      "message": "Назад"
+   },
+   "btn_enter_license_key": {
+      "message": "Активировать код"
+   },
+   "textarea_placeholder": {
+      "message": "Пожалуйста, введите лицензионный код"
+   },
+   "btn_more_locations": {
+      "message": "Больше локаций"
+   },
+   "btn_buy": {
+      "message": "Нажмите сюда чтобы купить лицензию"
+   },
+   "btn_enter": {
+      "message": "Есть лицензия? <br/> Введите код"
+   },
+   "badger1": {
+      "message": "Последние локации"
+   },
+   "badger2": {
+      "message": "Доступные локации"
+   },
+   "please_upgrade_msg": {
+      "message": "Пожалуйста, купите лицензию для доступа к этой локации"
+   },
+   "please_select_another_msg": {
+      "message": "Пожалуйста, выберите другую локацию."
+   },
+   "invalid_key_msg": {
+      "message": "Неправильный код."
+   },
+   "success_key_msg": {
+      "message": "Спасибо за активацию Hide My IP!"
+   },
+   "btn_more": {
+      "message": "Ещё"
+   },
+   "btn_change": {
+      "message": "Изменить<br/>лицензионный код"
+   }
+}
+

@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "उफ़!"
+   },
+   "success_msg": {
+      "message": "सफलता!"
+   },
+   "btn_back": {
+      "message": "वापस"
+   },
+   "btn_enter_license_key": {
+      "message": "लाइसेंस कुंजी दर्ज करें"
+   },
+   "textarea_placeholder": {
+      "message": "यहां लाइसेंस कोड दर्ज करें"
+   },
+   "btn_more_locations": {
+      "message": "अधिक स्थानों"
+   },
+   "btn_buy": {
+      "message": "यहाँ क्लिक करें एक लाइसेंस खरीदने के लिए <br/>"
+   },
+   "btn_enter": {
+      "message": "एक पूर्ण लाइसेंस है? कोड दर्ज <br/>"
+   },
+   "badger1": {
+      "message": "हाल ही के स्थान"
+   },
+   "badger2": {
+      "message": "सभी उपलब्ध स्थानों"
+   },
+   "please_upgrade_msg": {
+      "message": "इस प्रॉक्सी स्थान का उपयोग करने के लिए अपग्रेड करें।"
+   },
+   "please_select_another_msg": {
+      "message": "अन्य प्रॉक्सी स्थान का चयन करें।"
+   },
+   "invalid_key_msg": {
+      "message": "अमान्य कुंजी।"
+   }
+}
+

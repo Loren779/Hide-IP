@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Ops!"
+   },
+   "success_msg": {
+      "message": "Sucesso!"
+   },
+   "btn_back": {
+      "message": "Costas"
+   },
+   "btn_enter_license_key": {
+      "message": "Tecla Enter Licença"
+   },
+   "textarea_placeholder": {
+      "message": "Digite o código de licença aqui"
+   },
+   "btn_more_locations": {
+      "message": "Mais Localizações"
+   },
+   "btn_buy": {
+      "message": "Clique aqui <br/> para comprar uma licença"
+   },
+   "btn_enter": {
+      "message": "Ter uma licença completa? <br/> Digite o código"
+   },
+   "badger1": {
+      "message": "Locais recentes"
+   },
+   "badger2": {
+      "message": "Todos os locais disponíveis"
+   },
+   "please_upgrade_msg": {
+      "message": "Por favor, atualize para acessar este local proxy."
+   },
+   "please_select_another_msg": {
+      "message": "Por favor, selecione outro local proxy."
+   },
+   "invalid_key_msg": {
+      "message": "Chave inválida."
+   }
+}
+

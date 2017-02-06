@@ -1,0 +1,42 @@
+{
+   "oops_msg": {
+      "message": "Ups!"
+   },
+   "success_msg": {
+      "message": "Succes!"
+   },
+   "btn_back": {
+      "message": "Tilbage"
+   },
+   "btn_enter_license_key": {
+      "message": "Indtast licensnøgle"
+   },
+   "textarea_placeholder": {
+      "message": "Indtast licenskode her"
+   },
+   "btn_more_locations": {
+      "message": "Flere Steder"
+   },
+   "btn_buy": {
+      "message": "Klik her <br/> at købe en licens"
+   },
+   "btn_enter": {
+      "message": "Har en fuld licens? <br/> Indtast koden"
+   },
+   "badger1": {
+      "message": "Seneste destinationer"
+   },
+   "badger2": {
+      "message": "Alle tilgængelige Steder"
+   },
+   "please_upgrade_msg": {
+      "message": "Opgrader få adgang til denne proxy placering."
+   },
+   "please_select_another_msg": {
+      "message": "Vælg en anden proxy placering."
+   },
+   "invalid_key_msg": {
+      "message": "Ugyldig nøgle."
+   }
+}
+
